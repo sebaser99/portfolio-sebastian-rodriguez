@@ -192,3 +192,89 @@ límites del contenedor */
 }
 
 /* Fin de estilos generales */
+
+header nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color:var(--light-one);
+  z-index: 50;
+  overflow: hidden;
+}
+
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  height: 5rem;
+  align-items: center;
+}
+
+.logo a {
+  color: var(--dark-one);
+}
+
+.logo {
+  width: 80px;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 600;
+}
+
+.logo span {
+  color: var(--main-color);
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  display: inline-block;
+  padding: 0.9rem 1.2rem;
+  color: var(--dark-one);
+  font-size: 1.05rem;
+  text-transform: uppercase;
+}
+
+.links a.active {
+  background-color: var(--main-color);
+  color: var(--light-one);
+  border-radius: 2rem;
+  font-size: 1rem;
+  padding: 0.9rem 2.1rem;
+  margin-left: 1rem;
+}
+
+.links a:hover {
+  color: var(--main-color);
+}
+
+.links a.active:hover {
+  color: var(--light-one);
+  background-color: var(--secondary-color);
+}
+
+.hamburguer-menu {
+  display: none;
+}
+
+.header-content {
+  margin-top: 6rem;
+}
+
+.header-title {
+  font-size: 3.8rem;
+  line-height: 0.9;
+  color: var(--dark-one);
+}
+
+.header-title span {
+  color: var(--main-color);
+}
+
+.header-content .text {
+  margin: 2.15rem 0;
+
+}
