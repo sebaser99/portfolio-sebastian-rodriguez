@@ -94,6 +94,10 @@ su posición original en el flujo del documento. */
   justify-content: center;
 }
 
+.img-element {
+  border-radius: 8rem;
+}
+
 .z-index {
   position: relative;
   z-index: 2;
