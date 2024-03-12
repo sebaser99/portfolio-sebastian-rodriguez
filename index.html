@@ -10,6 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/meadiaqueries.css" />
     <title>Mi portafolio</title>
   </head>
   <body>
@@ -18,15 +19,15 @@
         <nav>
           <div class="container">
             <div class="logo">
-              <a href="index.html">A <span>R</span></a>
+              <a href="index.html">S <span>R</span></a>
             </div>
             <div class="links">
               <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="#services">Servicios</a></li>
-                <li><a href="#portfolio">Portafolio</a></li>
+                <!-- <li><a href="#portfolio">Portafolio</a></li> -->
                 <li><a href="#about">Acerca de </a></li>
-                <li><a href="#testimoniales">Testimonios</a></li>
+                <!-- <li><a href="#testimoniales">Testimonios</a></li> -->
                 <li><a href="#contact">Contacto</a></li>
                 <li>  
                   <a 
@@ -39,7 +40,7 @@
                 </li>
               </ul>
             </div>
-            <div class="hamburguer-menu">
+            <div class="hamburguer-menu pointer">
               <i class="fas fa-bars fa-lg"></i>
             </div>
 
@@ -53,19 +54,200 @@
                 ¡Impulsa tu proyecto con un experto en desarrollo web! Soy un programador y desarrollador web con más de dos años de experiencia creando soluciones digitales de calidad. ¡Haz realidad tu visión conmigo como tu aliado tecnológico!
               </p>
               <a href="https://drive.google.com/file/d/1tyWvFmMTlqDaXqy_ytfsvGnlydeeBVV-/view?usp=sharing" target="_blank" download>
-                <button class="btn">Descargar CV</button>
+                <button class="btn pointer download-btn">Descargar CV</button>
               </a>
             </div>
             <div class="column-2 image">
-              <img src="./img/person.png" alt="Sebastian Rodriguez" class="img-element z-index">
+              <img src="./img/sebas.png" alt="Sebastian Rodriguez" class="img-element z-index">
               <img src="./img/shapes/points2.svg" alt="" class="points points2">
             </div>
           </div>
         </div>
       </header>
+      <section class="services section" id="services">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Lo que hago">Servicios</h3>
+            <p class="text">Creación de sitios web a medida y adaptados a las necesidades específicas de tu marca, mejorando su posicionamiento e incrementnado las ventas.</p>
+          </div>
+          <div class="cards">
+            <div class="card" data-card="UI/UX">
+              <div class="card-content z-index">
+                <img src="./img/design-icon.svg" alt="icon ui/ux" class="icon">
+                <h3 class="title-sm">Diseño WEB</h3>
+                <p class="text">Sitios webs atractivos con enfoque en la usabilidad y la experiencia del usuario para garantizar la satisfacción del visitante.</p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+            
+            <div class="card" data-card="Code">
+              <div class="card-content z-index">
+                <img src="./img/code-icon.svg" alt="icon desarollo web" class="icon">
+                <h3 class="title-sm">Desarrollo WEB</h3>
+                <p class="text">Implementamos interfaces de usuario atractivas y funcionales mediante el uso de tecnologías como HTML, CSS y JavaScript para crear experiencias interactivas y responsivas.</p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+            <div class="card" data-card="App">
+              <div class="card-content z-index">
+                <img src="./img/app-icon.svg" alt="icon desarrollo aplicaciones" class="icon">
+                <h3 class="title-sm">Desarrollo Aplicaciones</h3>
+                <p class="text">Diseñamos y desarrollamos aplicaciones web personalizadas para abordar necesidades específicas del cliente intengrando tecnologías modernas para mejorar la eficiencia y la usabilidad.</p>
+                <a href="#" class="btn small">Ver más</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127441.97018171466!2d-76.59865590140554!3d3.456193609786222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a59640e1f36d%3A0xead1a50d27c5c6a1!2sCampo%20alegre!5e0!3m2!1ses!2sco!4v1710180521745!5m2!1ses!2sco" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Ponte en Contacto</h3>
+              <p class="text">Danos la oportunidad de encontrar la mejor opción en desarrollo web para ti. Esa idea que tienes en mente podemos convertirla en una magnífica solución tecnológica. ¿Qué esperas?</p>
+              <div class="information-wrap">
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">Campoalegre, Cali - Colombia</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">sebaser99@gmail.com</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">+57-3177820139</p>
+                </div>
+              </div>
+            </div>
+       
+            <form class="contact-form">
+              <h3 class="title">Contáctame</h3>
+              <div class="row">
+                <input type="text"  id="nombre"  name="nombre" placeholder="Nombre" class="contact-input">
+                <input type="text"  id="apellido"  name="apellido" placeholder="Apellido" class="contact-input">
+              </div>
+              <div class="row">
+                <input type="tel"  id="celular"  name="celular" placeholder="Celular" class="contact-input">
+                <input type="email"  id="email"  name="email" placeholder="Email" class="contact-input" required>
+              </div>
+              <div class="row">
+                <textarea placeholder="Deja tu mensaje" cols="30" rows="5" class="contact-input textarea"></textarea>
+              </div>
+
+              <input type="submit" value="Enviar" class="btn">
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Sección pie de página -->
-    <footer class="footer"></footer>
+    <footer class="footer" id="about">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">Acerca de</h3>
+            <p class="text">
+              Como desarrollador web intento mantener un estilo sencillo pero muy funcional. Pienso que menos es más y que una interfaz limpia garantiza una excelente experiencia de usuario.
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#services">Servicios</a>
+              </li>
+              <li>
+                <a href="#about">Acerca de</a>
+              </li>
+              </li>
+              <li>
+                <a href="#contact">Contacto</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="grid-4-col footer-newstletter">
+            <h3 class="title-sm">Suscríbete</h3>
+            <p class="text">
+              Tenemos la mejor información del mercado Tech cada semana para ti. Suscríbete y manténte al día de las tendencias que marcan el rumbo de la industria digital.
+            </p>
+            <div class="footer-input-wrap">
+              <input type="email" class="footer-input" placeholder="Email" />
+              <a href="#" class="input-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Servicios</h3>
+            <ul>
+              <li>
+                <a href="#">Diseño WEB</a>
+              </li>
+              <li>
+                <a href="#">Desarrollo WEB</a>
+              </li>
+              <li>
+                <a href="#">Diseño de Apps</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2024 | Hecho por
+              <a href="#" class="split-text"> Sebastian Rodriguez </a>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Sígueme</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="https://www.facebook.com/sebaser99">
+                  <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/sebaser99">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.instagram.com/sebaser99/">
+                  <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/alex-sebastian-rodriguez-romero-5226a223a/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </div>
+            </div>
+
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
   </body>
 </html>

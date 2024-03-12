@@ -1,0 +1,130 @@
+@media only screen and (max-width: 750px)  {
+   .header-content .grid-2 {
+        grid-template-columns: repeat(1, 1fr);
+   }  
+   .header-content .grid-2 div:nth-child(1) {
+        order: 2;
+    } 
+    .header-content .grid-2 div:nth-child(2) {
+        order: 1;
+    }   
+
+    .header-title {
+        margin-top: 1rem;
+    }
+    .column-1 {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (min-width: 1100px)  {
+    .card {
+        max-width: 30%;
+    }
+}
+
+@media only screen and (min-width: 750px)  {
+    nav .container .links {
+        display: block;
+    }
+
+    .hamburguer-menu {
+        display: none;
+    }
+
+    .download-btn {
+        display: inline-block;
+        margin: 0px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 837px)  {
+    .card {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (min-width: 838px) and (max-width: 1099px)  {
+    .card {
+        max-width: 320px;
+    }
+}
+
+@media only screen and (max-width: 950px)  {
+    .contact-box {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+
+    .contact-form {
+        margin-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 700px)  {
+    .contact-form .row {
+        width: 100%;
+        display: grid;
+        grid-template-columns:  1fr;
+        grid-column-gap: 0.6rem;
+      }
+}
+
+@media only screen and (min-width: 600px)  {
+    .container {
+        padding: 0 2rem;
+    }
+}
+
+@media only screen and (min-width: 800px)  {
+    .container {
+        padding: 0 3rem;
+    }
+}
+
+@media only screen and (min-width: 1000px)  {
+     .bottom-footer {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .container {
+        padding: 0 4rem;
+    }
+}
+
+@media only screen and (max-width: 1000px)  {
+    .followme-wrap {
+        margin-top: 2rem;
+      }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    .footer .grid-4 {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .footer .grid-4 {
+        grid-template-columns:  repeat(2, 1fr);
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1000px) {
+    .footer .grid-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1001px)  {
+    .footer .grid-4 {
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+    }
+}
+
+
+

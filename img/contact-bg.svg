@@ -11,7 +11,7 @@
       }
 
       .cls-3, .cls-4 {
-        fill: #8c15ff;
+        fill: #33d24d;
       }
 
       .cls-5 {
@@ -27,7 +27,7 @@
       }
 
       .cls-7, .cls-9 {
-        fill: #6500c8;
+        fill: #33d24d;
       }
 
       .cls-10 {
@@ -35,11 +35,11 @@
       }
 
       .cls-11 {
-        fill: #5800af;
+        fill: #16821d;
       }
 
       .cls-12 {
-        fill: #8c15ff;
+        fill: #33d24d;
       }
     </style>
     <clipPath id="clippath">
