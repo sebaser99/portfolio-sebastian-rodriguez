@@ -105,6 +105,14 @@ ocuparán igualmente el espacio disponible en el contenedor.
   padding: 4rem 0; */
 }
 
+.column-1-about {
+  margin-right: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .column-2 {
   margin-left: 1.5rem;
 }
@@ -226,7 +234,7 @@ header nav {
   width: 100%;
   position: fixed;
   top: 0;
-  background-color:var(--light-one);
+  background-color: #e6faed;
   z-index: 50;
   overflow: hidden;
 }
