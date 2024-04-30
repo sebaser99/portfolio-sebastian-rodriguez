@@ -54,23 +54,28 @@
     }
 }
 
-@media only screen and (max-width: 950px)  {
+@media only screen and (min-width: 950px)  {
     .contact-box {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+        padding: 5.5rem 4.5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .contact-form {
-        margin-top: 3.5rem;
-    }
+        margin-top: 0;
+    } 
+    .contact-info {
+        padding-right: 2rem;
+      }
 }
 
-@media only screen and (max-width: 700px)  {
+@media only screen and (min-width: 700px)  {
+
     .contact-form .row {
         width: 100%;
         display: grid;
-        grid-template-columns:  1fr;
         grid-column-gap: 0.6rem;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
       }
 }
 
@@ -128,5 +133,15 @@
     }
 }
 
+@media only screen and (min-width: 430px)  {
+    .information {
+        display: block;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+}
 
 

@@ -162,8 +162,8 @@ límites del contenedor */
   display: inline-block;
   padding-bottom: 1rem;
   line-height: 1;
-  font-size: 2.8rem;
-  margin-bottom: 0.6rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 .title:before {
@@ -417,34 +417,23 @@ nav .container .links {
 .contact-box {
   width: 100%;
   background-color: var(--light-one);
-  width: 100%;
   border-radius: 45px;
-  padding: 5.5rem 4.5rem;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   margin-top: -5%;
+  padding: 3rem 2rem;
 }
 
-.contact-info {
-  padding-right: 2rem;
-}
 
 .contact-left {
   padding-left: 2rem;
 }
 
-.contact-info .title:after {
+.contact-info .title:after, .contact-form .title:after {
   left: 0;
   transform: initial;
 }
 
 .information-wrap {
   margin-top: 2rem;
-}
-
-.information {
-  display: flex;
-  align-items: center;
 }
 
 .information:not(:last-child) {
@@ -473,24 +462,16 @@ nav .container .links {
   display: inline-block;
 }
 
-.contact-form .title:after {
-  display: none;
+.contact-form {
+  margin-top: 4rem;
 }
 
-.contact-form .title {
-  margin: 0;
-}
 
-.contact-form .row {
-  width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  grid-column-gap: 0.6rem;
-}
+
 
 .contact-input {
   padding: 1.2rem 2.1rem;
-  margin: 0.6rem 0;
+  margin: 0.6rem auto;
   border: none;
   outline: none;
   background: #f3f3f3;
@@ -498,6 +479,8 @@ nav .container .links {
   font-weight: 600;
   font-size: 1.25rem;
   transition: 0.3s;
+  width: 100%;
+  display: block;
 }
 
 .contact-input::placeholder {
@@ -630,6 +613,7 @@ nav .container .links {
   border-radius: 30px;
   overflow: hidden;
   margin-top: 1.2rem;
+
 }
 
 .footer-input {
@@ -640,6 +624,8 @@ nav .container .links {
   padding: 0 1.5rem;
   font-size: 1.1rem;
   transition: 0.3s;
+  display: block;
+  width: 100%;
 }
 
 .input-arrow {
